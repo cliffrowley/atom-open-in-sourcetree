@@ -1,7 +1,7 @@
 {
   "name": "open-in-sourcetree",
   "main": "./lib/open-in-sourcetree",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "private": true,
   "description": "Opens the current project in SourceTree",
   "activationEvents": [

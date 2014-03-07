@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Open in SourceTree': 'open-in-sourcetree:open'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'SourceTree'
+      'submenu': [
+        { 'label': 'Open in SourceTree', 'command': 'open-in-sourcetree:open' }
+      ]
+    ]
+  }
+]

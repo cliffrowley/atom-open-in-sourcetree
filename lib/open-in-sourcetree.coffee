@@ -1,5 +1,5 @@
-exec = require("child_process").exec
-fs   = require("fs")
+spawn = require("child_process").spawn
+fs    = require("fs")
 
 module.exports =
   activate: (state) ->
@@ -12,7 +12,7 @@ module.exports =
 
   openApp2: (project_path, app_paths = []) ->
     if app_paths?.length > 0
-      child = exec "open -a #{app_paths[0]}/SourceTree.app #{project_path}"
+      child = spawn "/usr/bin/open", ["-a", "#{app_paths[0]}/SourceTree.app", project_path]
       child.on 'close', (code) =>
         app_paths = [].concat(app_paths[1..])
         @openApp2(project_path, app_paths) if code > 0 and app_paths.length > 0

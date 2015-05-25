@@ -4,9 +4,9 @@
   "version": "0.1.2",
   "private": true,
   "description": "Opens the current project in SourceTree",
-  "activationEvents": [
-    "open-in-sourcetree:open"
-  ],
+  "activationCommands": {
+    "atom-workspace": ["open-in-sourcetree:open"]
+  },
   "repository": "https://github.com/cliffrowley/atom-open-in-sourcetree",
   "license": "MIT",
   "engines": {

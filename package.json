@@ -15,6 +15,6 @@
     "atom": ">=0.174.0 <2.0.0"
   },
   "dependencies": {},
-  "readme": "Opens the current project in [SourceTree](http://sourcetreeapp.com) (<kbd>&#8984;&#8963;S</kbd>)\n\n**NOTE**: currently Mac only, Windows support soon!",
+  "readme": "Opens the current project in [SourceTree](http://sourcetreeapp.com).",
   "readmeFilename": "README.md"
 }

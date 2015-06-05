@@ -1,6 +1,5 @@
-
 '.platform-darwin':
   'cmd-ctrl-s': 'open-in-sourcetree:open'
-  
+
 '.platform-win32':
   'ctrl-alt-shift-s': 'open-in-sourcetree:open'

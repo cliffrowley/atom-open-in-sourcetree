@@ -2,8 +2,8 @@
   "name": "open-in-sourcetree",
   "main": "./lib/open-in-sourcetree",
   "version": "0.1.3",
-  "private": true,
   "description": "Opens the current project in SourceTree",
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": [
       "open-in-sourcetree:open"
@@ -12,7 +12,9 @@
   "repository": "https://github.com/cliffrowley/atom-open-in-sourcetree",
   "license": "MIT",
   "engines": {
-    "atom": ">0.50.0"
+    "atom": ">=0.174.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "readme": "Opens the current project in [SourceTree](http://sourcetreeapp.com) (<kbd>&#8984;&#8963;S</kbd>)\n\n**NOTE**: currently Mac only, Windows support soon!",
+  "readmeFilename": "README.md"
 }

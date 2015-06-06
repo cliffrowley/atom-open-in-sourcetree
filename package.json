@@ -17,6 +17,6 @@
   "dependencies": {
     "atom-space-pen-views": "^2.0.5"
   },
-  "readme": "Opens the current project in [SourceTree](http://sourcetreeapp.com).",
+  "readme": "Opens the current project(s) in [SourceTree](http://sourcetreeapp.com).",
   "readmeFilename": "README.md"
 }

@@ -3,13 +3,8 @@ exec  = require('child_process').exec
 fs    = require('fs')
 
 openOnMac = (projectPath) ->
-  appPath = '/Applications/SourceTree.app'
-
-  fs.exists appPath, (exists) ->
-    if exists
-      spawn '/usr/bin/open', ['-a', appPath, projectPath]
-    else
-      spawn '/usr/bin/open', ['-a', "#{process.env['HOME']}#{{appPath}}", projectPath]
+  appBundleIndentifier = 'com.torusknot.SourceTreeNotMAS'
+  spawn '/usr/bin/open', ['-b', appBundleIndentifier, projectPath]
 
 openOnWindows = (projectPath) ->
   exec "cd \"#{projectPath}\" & " +

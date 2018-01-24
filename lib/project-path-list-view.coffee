@@ -22,6 +22,8 @@ module.exports =
       $$ ->
         @li path
 
+    getFilterKey: -> 'path'
+
     confirmed: ({path}) ->
       require('./open-sourcetree')(path)
       @cancel()

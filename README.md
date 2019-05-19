@@ -6,5 +6,6 @@ The Atom command to open SourceTree is `open-in-sourcetree:open`.  The default k
 
 ## Recent changes
 
+ * Now will give option to create Git repo if used on folder without Git.
  * Now supports multiple project folders.
  * Now supports Windows (thanks to @mark-hahn).

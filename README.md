@@ -1,3 +1,7 @@
+# IMPORTANT NOTE
+
+I am no longer maintaining this project. Please contact me or create an issue if you wish take ownership of it.
+
 # Open in SourceTree
 
 Opens the current project(s) in [SourceTree](http://sourcetreeapp.com).
